@@ -1,6 +1,6 @@
 /* eslint react-hooks/exhaustive-deps: off */
 import React, { useEffect, useState } from "react";
-import ColorfulMessage from "./componets/ColorfulMessage";
+import { ColorfulMessage } from "./componets/ColorfulMessage";
 
 const App = () => {
   console.log("最初");
